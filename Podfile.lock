@@ -1,0 +1,99 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.5.0)
+  - DZNEmptyDataSet (1.8.1)
+  - FLAnimatedImage (1.0.12)
+  - IQKeyboardManager (6.0.3)
+  - JPFPSStatus (0.1.1)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.3)
+  - ReactiveCocoa (2.5.2):
+    - ReactiveCocoa/UI (= 2.5.2)
+  - ReactiveCocoa/Core (2.5.2):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5.2)
+  - ReactiveCocoa/UI (2.5.2):
+    - ReactiveCocoa/Core
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - XHLaunchAd (3.9.7):
+    - FLAnimatedImage (~> 1.0.12)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Bugly
+  - DZNEmptyDataSet
+  - IQKeyboardManager (from `https://github.com/hackiftekhar/IQKeyboardManager.git`)
+  - JPFPSStatus
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh (~> 3.1.12)
+  - ReactiveCocoa (from `https://github.com/zhao0/ReactiveCocoa.git`, tag `2.5.2`)
+  - SDWebImage (~> 4.0)
+  - "UITableView+FDTemplateLayoutCell"
+  - XHLaunchAd
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - Bugly
+    - DZNEmptyDataSet
+    - FLAnimatedImage
+    - JPFPSStatus
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - "UITableView+FDTemplateLayoutCell"
+    - XHLaunchAd
+
+EXTERNAL SOURCES:
+  IQKeyboardManager:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+CHECKOUT OPTIONS:
+  IQKeyboardManager:
+    :commit: 1f65aa001001b7448379a3bdf309ab209964dae0
+    :git: https://github.com/hackiftekhar/IQKeyboardManager.git
+  ReactiveCocoa:
+    :git: https://github.com/zhao0/ReactiveCocoa.git
+    :tag: 2.5.2
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  JPFPSStatus: 03f32aa3d4d7d0c5bf56f6f3e7cf8b7280a5f52c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  ReactiveCocoa: 3ff25b1bd992ac79c5c79b26b6c0c1713b715bb2
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  XHLaunchAd: 0dc50c5af00ee5d9e734b9dce6eece7acaa71122
+
+PODFILE CHECKSUM: ca0e049a25dab7bd56396e7dc0d143a26e565ad8
+
+COCOAPODS: 1.5.0

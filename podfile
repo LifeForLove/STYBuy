@@ -1,0 +1,18 @@
+
+platform :ios, '9.0'
+inhibit_all_warnings!
+target 'STYBuy' do
+pod 'MJRefresh', '~> 3.1.12' #布局
+pod 'AFNetworking', '~> 3.1.0'#网络请求
+pod 'MJRefresh', '~> 3.1.12' #上下拉刷新
+pod 'Bugly'
+pod 'MJExtension', '~> 3.0.13'
+pod 'Masonry', '~> 1.1.0'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'DZNEmptyDataSet'
+pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
+pod 'SDWebImage','~> 4.0'
+pod 'IQKeyboardManager', :git => 'https://github.com/hackiftekhar/IQKeyboardManager.git'  #键盘控制
+pod 'XHLaunchAd'  #开启页广告
+pod 'JPFPSStatus' #FPS 检测
+end

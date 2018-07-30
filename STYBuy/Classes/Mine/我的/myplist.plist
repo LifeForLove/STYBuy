@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>收货地址</string>
+		<key>id</key>
+		<string>1002</string>
+		<key>img</key>
+		<string>my_shdz</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>实名认证</string>
+		<key>id</key>
+		<string>1003</string>
+		<key>img</key>
+		<string>my_smrz</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>加盟合作</string>
+		<key>id</key>
+		<string>1004</string>
+		<key>img</key>
+		<string>my_jmhz</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>联系客服</string>
+		<key>id</key>
+		<string>1005</string>
+		<key>img</key>
+		<string>my_lxkf</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>平台规则</string>
+		<key>id</key>
+		<string>1006</string>
+		<key>img</key>
+		<string>my_ptgz</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>关于天易购</string>
+		<key>id</key>
+		<string>1007</string>
+		<key>img</key>
+		<string>my_gytyg</string>
+	</dict>
+</array>
+</plist>
