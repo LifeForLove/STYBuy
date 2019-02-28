@@ -1,18 +1,41 @@
 
 platform :ios, '9.0'
 inhibit_all_warnings!
+
+DEV = 1
 target 'STYBuy' do
-pod 'MJRefresh', '~> 3.1.12' #布局
-pod 'AFNetworking', '~> 3.1.0'#网络请求
-pod 'MJRefresh', '~> 3.1.12' #上下拉刷新
-pod 'Bugly'
-pod 'MJExtension', '~> 3.0.13'
-pod 'Masonry', '~> 1.1.0'
-pod 'UITableView+FDTemplateLayoutCell'
-pod 'DZNEmptyDataSet'
-pod 'ReactiveCocoa', :git => 'https://github.com/zhao0/ReactiveCocoa.git', :tag => '2.5.2'
-pod 'SDWebImage','~> 4.0'
-pod 'IQKeyboardManager', :git => 'https://github.com/hackiftekhar/IQKeyboardManager.git'  #键盘控制
-pod 'XHLaunchAd'  #开启页广告
-pod 'JPFPSStatus' #FPS 检测
+  
+    
+  
+    STBaseGit = 'https://gitee.com/getElementByYou_admin/STBase.git'
+    STGeneralGit = 'https://gitee.com/getElementByYou/STGeneral.git'
+    STSectionsGit = 'https://gitee.com/getElementByYou/STSections.git'
+    STHomeVCGit = 'https://gitee.com/getElementByYou/STHomeVC.git'
+    STOrderVCGit = 'https://gitee.com/getElementByYou/STOrderVC.git'
+    STMineVCGit = 'https://gitee.com/getElementByYou/STMineVC.git'
+    
+    pod 'ELBrowser'
+    
+    if DEV == 1
+        #基础库
+        system('git clone '+STBaseGit+' DevPods/STBase') unless File.exists?('DevPods/STBase')
+        system('git clone '+STGeneralGit+' DevPods/STGeneral') unless File.exists?('DevPods/STGeneral')
+        system('git clone '+STSectionsGit+' DevPods/STSections') unless File.exists?('DevPods/STSections')
+        system('git clone '+STHomeVCGit+' DevPods/STHomeVC') unless File.exists?('DevPods/STHomeVC')
+        system('git clone '+STOrderVCGit+' DevPods/STOrderVC') unless File.exists?('DevPods/STOrderVC')
+        system('git clone '+STMineVCGit+' DevPods/STMineVC') unless File.exists?('DevPods/STMineVC')
+        
+        pod 'STBase',:path => 'DevPods/STBase'
+        pod 'STGeneral',:path => 'DevPods/STGeneral'
+        pod 'STSections',:path => 'DevPods/STSections'
+        pod 'STHomeVC',:path => 'DevPods/STHomeVC'
+        pod 'STOrderVC',:path => 'DevPods/STOrderVC'
+        pod 'STMineVC',:path => 'DevPods/STMineVC'
+        
+        else
+        
+        pod 'STBase',:git => STBaseGit , :tag => '0.1.0'
+        pod 'STGeneral',:git => STGeneralGit , :tag => '0.1.1'
+    end
+    
 end

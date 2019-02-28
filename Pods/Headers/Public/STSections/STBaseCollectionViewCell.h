@@ -1,0 +1,1 @@
+../../../../DevPods/STSections/STSections/Classes/Base/STBaseCollectionViewCell.h

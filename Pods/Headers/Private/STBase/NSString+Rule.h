@@ -1,0 +1,1 @@
+../../../../DevPods/STBase/STBase/Classes/Category/NSStriing+Rule/NSString+Rule.h

@@ -9,12 +9,5 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import "STURL.h"
-#import "STFile.h"
-#import "STFont.h"
-#import "STColor.h"
-#import "STNotification.h"
-#import "STEnum.h"
-#import "STGlobal.h"
 
 #endif /* PrefixHeader_pch */

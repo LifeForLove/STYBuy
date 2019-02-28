@@ -12,10 +12,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-/**
- 网络状态
- */
-@property (nonatomic,assign) AFNetworkReachabilityStatus networkStatus;
-
 @end
 

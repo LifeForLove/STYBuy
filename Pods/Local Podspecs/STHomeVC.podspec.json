@@ -1,0 +1,32 @@
+{
+  "name": "STHomeVC",
+  "version": "0.1.0",
+  "summary": "A short description of STHomeVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/getElementByYou/STHomeVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LifeForLove": "getElementByYou@163.com"
+  },
+  "source": {
+    "git": "https://gitee.com/getElementByYou/STHomeVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "STHomeVC/Classes/**/*",
+  "resource_bundles": {
+    "STHomeVC": [
+      "STHomeVC/Assets/*.json"
+    ]
+  },
+  "dependencies": {
+    "STSections": [
+
+    ]
+  }
+}

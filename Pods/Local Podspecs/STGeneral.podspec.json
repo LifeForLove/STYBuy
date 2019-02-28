@@ -1,0 +1,59 @@
+{
+  "name": "STGeneral",
+  "version": "0.1.4",
+  "summary": "天易购UI通用基础组库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/getElementByYou/STGeneral",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LifeForLove": "getElementByYou@163.com"
+  },
+  "source": {
+    "git": "https://gitee.com/getElementByYou/STGeneral.git",
+    "tag": "0.1.4"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "STGeneral/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "Masonry": [
+
+    ],
+    "DZNEmptyDataSet": [
+
+    ],
+    "XHLaunchAd": [
+      "~> 3.9.7"
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ],
+    "MJExtension": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "coobjc": [
+
+    ]
+  },
+  "prefix_header_contents": "#import \"STGeneral.h\"",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/Headers/Private/STGeneral/",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
+}

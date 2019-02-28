@@ -1,0 +1,30 @@
+{
+  "name": "STBase",
+  "version": "0.1.3",
+  "summary": "基础分类文件",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/getElementByYou_admin/STBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LifeForLove": "getElementByYou@163.com"
+  },
+  "source": {
+    "git": "https://gitee.com/getElementByYou_admin/STBase.git",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "STBase/Classes/**/*",
+  "prefix_header_contents": "#import \"STBase.h\"",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": "$(PODS_ROOT)/Headers/Private/STBase/",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
+}

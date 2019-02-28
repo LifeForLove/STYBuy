@@ -81,7 +81,7 @@
     if (self.gifView.constraints.count) return;
     
     self.gifView.frame = self.bounds;
-    if (self.stateLabel.hidden) {
+    if (self.isRefreshingTitleHidden) {
         self.gifView.contentMode = UIViewContentModeCenter;
     } else {
         self.gifView.contentMode = UIViewContentModeRight;
@@ -94,8 +94,8 @@
     MJRefreshCheckState
     
     // 根据状态做事情
-    NSArray *images = self.stateImages[@(state)];
     if (state == MJRefreshStateRefreshing) {
+        NSArray *images = self.stateImages[@(state)];
         if (images.count == 0) return;
         [self.gifView stopAnimating];
         
@@ -107,17 +107,9 @@
             self.gifView.animationDuration = [self.stateDurations[@(state)] doubleValue];
             [self.gifView startAnimating];
         }
-    } else if (state == MJRefreshStateIdle) {
-        self.stateLabel.hidden = NO;
-        self.gifView.hidden = images.count == 0 ? YES : NO;
-        if (images.count == 0) return;
+    } else if (state == MJRefreshStateNoMoreData || state == MJRefreshStateIdle) {
         [self.gifView stopAnimating];
-        self.gifView.image = [images lastObject];
-    }else if (state == MJRefreshStateNoMoreData) {
-        self.gifView.hidden = NO;
-        self.stateLabel.hidden = YES;
-        [self.gifView stopAnimating];
-        self.gifView.image = [images lastObject];
+        self.gifView.hidden = YES;
     }
 }
 @end
