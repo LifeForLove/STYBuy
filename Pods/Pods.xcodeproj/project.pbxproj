@@ -435,8 +435,8 @@
 		AA8D024517758C2862A6B052D6A9356E /* UIView+STExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = F63A06C15404A3CD6BC78A58B983286D /* UIView+STExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB359EC8B47289DFB797D2BD9C675E30 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EFFE470FF7E7EA0C6F91BBBBA4801CA /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABB93C8E4882B82359EC24CBE468F329 /* NSObject+RACPropertySubscribing.h in Headers */ = {isa = PBXBuildFile; fileRef = C621220DC8B6D4B787BFEAF00BCAD71D /* NSObject+RACPropertySubscribing.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AC095912222C1EB800850742 /* UIImageView+Placeholder_webCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AC095910222C1EB800850742 /* UIImageView+Placeholder_webCache.h */; };
-		AC095913222C1EB800850742 /* UIImageView+Placeholder_webCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AC095911222C1EB800850742 /* UIImageView+Placeholder_webCache.m */; };
+		AC095917222C207900850742 /* UIImageView+Placeholder_webCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AC095915222C207900850742 /* UIImageView+Placeholder_webCache.h */; };
+		AC095918222C207900850742 /* UIImageView+Placeholder_webCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AC095916222C207900850742 /* UIImageView+Placeholder_webCache.m */; };
 		AC304415B906179DE68B1BADE13EAEFD /* COChan.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1FD7006FC1EE67EA0807978AF609DC /* COChan.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AC531F7205874A2B77F370ACEF968681 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61645A659F258F08B5BC286938A86D36 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AC56E766BC46E7983D875F1388E09F9F /* STMainTab.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AC58BFAF499342BEB6584749252F3A /* STMainTab.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -1526,8 +1526,8 @@
 		AB1A7D3BB7514C67BD8B54B35315AF4D /* NSObject+CurrentTopVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+CurrentTopVC.h"; sourceTree = "<group>"; };
 		AB48A0D37DD7A9A9B31E1DE991C6F583 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		ABD3BEDE222F4B60005ECAA0092288F6 /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
-		AC095910222C1EB800850742 /* UIImageView+Placeholder_webCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Placeholder_webCache.h"; sourceTree = "<group>"; };
-		AC095911222C1EB800850742 /* UIImageView+Placeholder_webCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Placeholder_webCache.m"; sourceTree = "<group>"; };
+		AC095915222C207900850742 /* UIImageView+Placeholder_webCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Placeholder_webCache.h"; sourceTree = "<group>"; };
+		AC095916222C207900850742 /* UIImageView+Placeholder_webCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Placeholder_webCache.m"; sourceTree = "<group>"; };
 		AC0FDC4EDC545DEAC31E7AFE22D8BCCE /* RACEagerSequence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RACEagerSequence.m; path = ReactiveCocoa/RACEagerSequence.m; sourceTree = "<group>"; };
 		AC36046C92D0B0E73BB1672C96AD4DF6 /* UIDatePicker+RACSignalSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDatePicker+RACSignalSupport.m"; path = "ReactiveCocoa/UIDatePicker+RACSignalSupport.m"; sourceTree = "<group>"; };
 		AC5F1DA7BFE80760108487A6F52B90B9 /* LewPopupBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LewPopupBackgroundView.m; sourceTree = "<group>"; };
@@ -2046,7 +2046,6 @@
 		0E3F86653ED7DABB475226ECDB1EB055 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				AC09590F222C1EB800850742 /* UIImageView */,
 				5D4C9D785D98B217B64346C9586700EC /* ButtonRedPoint */,
 				84E57DFE0EEE2CDD7DA577A33C30326A /* Label */,
 				497C6EA3308DBE6C7CAF238EACFCDA12 /* TextField */,
@@ -2442,6 +2441,7 @@
 		4EFCA29EF8268580F35F03617CE99E18 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AC095914222C207900850742 /* UIImageView */,
 				8755E64F111885A38E628F700680BE2D /* Log */,
 				2BC39E48EA37F43CB532EDC49B51F82C /* NSObject */,
 				89B92525217568247F5FD70F8ED4332B /* UIScrollView */,
@@ -3073,11 +3073,11 @@
 			path = STBase/Classes/Category;
 			sourceTree = "<group>";
 		};
-		AC09590F222C1EB800850742 /* UIImageView */ = {
+		AC095914222C207900850742 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
-				AC095910222C1EB800850742 /* UIImageView+Placeholder_webCache.h */,
-				AC095911222C1EB800850742 /* UIImageView+Placeholder_webCache.m */,
+				AC095915222C207900850742 /* UIImageView+Placeholder_webCache.h */,
+				AC095916222C207900850742 /* UIImageView+Placeholder_webCache.m */,
 			);
 			path = UIImageView;
 			sourceTree = "<group>";
@@ -3782,7 +3782,6 @@
 				1326CE00953E843E156393B178428A27 /* UIBarButtonItem+STExtension.h in Headers */,
 				4EEEB09AD2A3B86A7A08113D20F36E20 /* UIButton+Extension.h in Headers */,
 				6AE3E00701668499125A5C352D33E3D5 /* UIButton+RedPoint.h in Headers */,
-				AC095912222C1EB800850742 /* UIImageView+Placeholder_webCache.h in Headers */,
 				1A83239954203A1CB3AC6B04D686829D /* UIColor+STExtension.h in Headers */,
 				C70484A9FFF599BB4010B25CB93F8E18 /* UIImage+FrostedGlass.h in Headers */,
 				C6F80BB33EB9402031C3A92956F694DF /* UILabel+ChangeLineSpaceAndWordSpace.h in Headers */,
@@ -3874,6 +3873,7 @@
 				6D168EBB44BC3DDD81659F40C735E2FD /* UIScrollView+STExtension.h in Headers */,
 				C476F52281A40BAEAB5FBF99E2D7EFBF /* UIViewController+LewPopupViewController.h in Headers */,
 				BA9FEDC3FF9B7724EB56E6433C168C49 /* XHLaunchAdManager.h in Headers */,
+				AC095917222C207900850742 /* UIImageView+Placeholder_webCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5040,7 +5040,6 @@
 				3A696C6AF8C000FBCD0D78DAC3CF84DF /* STBase-dummy.m in Sources */,
 				196E118F49348ADE26F3C0D0B98FEA47 /* UIBarButtonItem+STExtension.m in Sources */,
 				75FE2A0E73F0667C27522064A427D6AB /* UIButton+Extension.m in Sources */,
-				AC095913222C1EB800850742 /* UIImageView+Placeholder_webCache.m in Sources */,
 				E3DAFFF52B4F6F65058AD2EFCD80F71E /* UIButton+RedPoint.m in Sources */,
 				67B19722A421A9C0E17336EDC62CAFC5 /* UIColor+STExtension.m in Sources */,
 				A5A436F7E62A348B26E8B305ACB043E6 /* UIImage+FrostedGlass.m in Sources */,
@@ -5099,6 +5098,7 @@
 				680554D76FE9F65D18FAFF293AF4DA00 /* SFLabel.m in Sources */,
 				7655C8794616C665D34167A9681A8965 /* STEmptyView.m in Sources */,
 				26E154EC457922B2ED283690224860E3 /* STGeneral-dummy.m in Sources */,
+				AC095918222C207900850742 /* UIImageView+Placeholder_webCache.m in Sources */,
 				4B4E86A6B90BE05DBB937232A97CD252 /* UIScrollView+STExtension.m in Sources */,
 				D1763B4871C7172D68B111155CC66227 /* UIViewController+LewPopupViewController.m in Sources */,
 				DB0B5A84ACE99A7E82D3CEDBE5ED0ECF /* XHLaunchAdManager.m in Sources */,
