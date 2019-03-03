@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7C3DD16AFBF89B249F2A7253B7529303"
+               BlueprintIdentifier = "F049953EF5C78CF206E489CC8639C842"
+               BuildableName = "libSTOrderVC.a"
                BlueprintName = "STOrderVC"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libSTOrderVC.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

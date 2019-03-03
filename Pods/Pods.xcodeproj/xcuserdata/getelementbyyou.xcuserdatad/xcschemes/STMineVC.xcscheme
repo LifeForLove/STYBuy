@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD8C66A74A295198642CF05E2848FCD7"
+               BlueprintIdentifier = "DA7E3D49EAA2C56E2C8867AA72180AB8"
+               BuildableName = "libSTMineVC.a"
                BlueprintName = "STMineVC"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libSTMineVC.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -19,12 +19,41 @@
     "ios": "8.0"
   },
   "source_files": "STSections/Classes/**/*",
+  "resource_bundles": {
+    "STSections": [
+      "STSections/Assets/*.xcdatamodeld"
+    ]
+  },
   "dependencies": {
     "STBase": [
       "~> 0.1.3"
     ],
     "STGeneral": [
       "~> 0.1.4"
+    ],
+    "ReactiveCocoa": [
+      "~> 2.5"
+    ],
+    "MJExtension": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "coobjc": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "Bugly": [
+      "~> 2.5.0"
+    ],
+    "JPFPSStatus": [
+
     ]
   },
   "prefix_header_contents": "#import \"STSections.h\"",

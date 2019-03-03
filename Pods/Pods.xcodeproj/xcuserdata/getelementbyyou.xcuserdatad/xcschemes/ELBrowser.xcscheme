@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00AAF7AB026C1A5788345E1C370E0164"
+               BuildableName = "libELBrowser.a"
                BlueprintName = "ELBrowser"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libELBrowser.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AFFED4092B22750815A4EEA11817590E"
+               BuildableName = "libFLAnimatedImage.a"
                BlueprintName = "FLAnimatedImage"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libFLAnimatedImage.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

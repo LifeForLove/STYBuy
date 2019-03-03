@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0945C1396E486C29BC050BE4B09E340C"
+               BuildableName = "libcoobjc.a"
                BlueprintName = "coobjc"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libcoobjc.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

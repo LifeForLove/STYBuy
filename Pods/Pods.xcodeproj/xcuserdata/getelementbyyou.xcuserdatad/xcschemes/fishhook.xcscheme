@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06DC3CAD573ECF890C32C18300327529"
+               BuildableName = "libfishhook.a"
                BlueprintName = "fishhook"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libfishhook.a">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

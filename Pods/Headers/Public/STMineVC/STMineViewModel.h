@@ -1,0 +1,1 @@
+../../../../DevPods/STMineVC/STMineVC/Classes/STMineVC/STMineViewModel.h
