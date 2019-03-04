@@ -77,7 +77,7 @@
 - (void)initializeSTUser
 {
     STUserDataManager * manager = [STUserDataManager sharedUserManager];
-    NSLog(@"%@",[manager currentUser].mj_keyValues);
+    NSLog(@"%@",manager.userData.mj_keyValues);
 }
 
 
