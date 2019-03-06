@@ -54,6 +54,9 @@
     ],
     "JPFPSStatus": [
 
+    ],
+    "UITableView+FDTemplateLayoutCell": [
+
     ]
   },
   "prefix_header_contents": "#import \"STSections.h\"",

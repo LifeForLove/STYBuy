@@ -90,7 +90,7 @@
     [LaunchIntroductionView sharedWithImages:@[@"guide0",@"guide1",@"guide2"] buttonImage:nil buttonFrame:CGRectMake(kScreen_width/2 - 200/2, kScreen_height*0.9, 200, 35)];
     
     //配置app 主题
-    [[STThemeManager sharedInstance]applyTheme:@"STThemeDefault"];
+    [[STThemeManager sharedInstance]configTheme];
     
 #ifdef DEBUG
     //FPS 检测

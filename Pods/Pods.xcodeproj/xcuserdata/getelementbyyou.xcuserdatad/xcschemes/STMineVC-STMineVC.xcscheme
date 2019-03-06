@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B6C26F755BDA96C2FBC8C57A87A7244"
+               BlueprintIdentifier = "A3A1D1EA08AF20E7ED2B26DC72736C58"
                BuildableName = "STMineVC.bundle"
                BlueprintName = "STMineVC-STMineVC"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1B6C26F755BDA96C2FBC8C57A87A7244"
+            BlueprintIdentifier = "A3A1D1EA08AF20E7ED2B26DC72736C58"
             BuildableName = "STMineVC.bundle"
             BlueprintName = "STMineVC-STMineVC"
             ReferencedContainer = "container:Pods.xcodeproj">

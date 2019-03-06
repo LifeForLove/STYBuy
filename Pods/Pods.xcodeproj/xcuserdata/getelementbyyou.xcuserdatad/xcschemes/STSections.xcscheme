@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5A5AF9BA6E224BFA0BEF1EA29ACBE5A1"
+               BlueprintIdentifier = "A163B5154A60E43F82C2A02E72420B06"
                BuildableName = "libSTSections.a"
                BlueprintName = "STSections"
                ReferencedContainer = "container:Pods.xcodeproj">

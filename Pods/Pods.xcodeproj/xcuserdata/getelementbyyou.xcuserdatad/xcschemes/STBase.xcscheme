@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FD6CBE3265EBC2F1C8E7797F1894DA9F"
+               BlueprintIdentifier = "E15903E3D844D609B6465D0E9A785CC5"
                BuildableName = "libSTBase.a"
                BlueprintName = "STBase"
                ReferencedContainer = "container:Pods.xcodeproj">

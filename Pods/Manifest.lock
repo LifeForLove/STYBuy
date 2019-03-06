@@ -66,7 +66,9 @@ PODS:
     - STBase (~> 0.1.3)
     - STGeneral (~> 0.1.4)
     - SVProgressHUD
+    - "UITableView+FDTemplateLayoutCell"
   - SVProgressHUD (2.2.5)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
   - XHLaunchAd (3.9.8):
     - FLAnimatedImage (~> 1.0.12)
 
@@ -96,6 +98,7 @@ SPEC REPOS:
     - ReactiveCocoa
     - SDWebImage
     - SVProgressHUD
+    - "UITableView+FDTemplateLayoutCell"
     - XHLaunchAd
 
 EXTERNAL SOURCES:
@@ -132,8 +135,9 @@ SPEC CHECKSUMS:
   STHomeVC: 4ad3b19f65bef94dada6151e23ca0985ab61d3dc
   STMineVC: f7561143f52363d40c2a265ae02426776dc67d49
   STOrderVC: 3648a139d5edbd770e24cc2404c58179748f8521
-  STSections: 91ffc4239d0db1fa09bfc3a0bc97f3f940f966bd
+  STSections: 2924187da5fa8df8e1ab9fefa4c9724bc1dcc1d9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
   XHLaunchAd: 45048592af01aa501c9d2d0c45e95ca74c4d0596
 
 PODFILE CHECKSUM: c69118777eface14f8341f0813ef6f2f32e841b2
