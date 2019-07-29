@@ -131,7 +131,7 @@
 				TargetAttributes = {
 					ACB8768320A66B5200B1A85F = {
 						CreatedOnToolsVersion = 9.3;
-						DevelopmentTeam = B859JP9X5P;
+						DevelopmentTeam = BMBPTRQ2Q4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -190,8 +190,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-STYBuy/Pods-STYBuy-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
@@ -202,8 +200,6 @@
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
@@ -360,7 +356,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B859JP9X5P;
+				DEVELOPMENT_TEAM = BMBPTRQ2Q4;
 				GCC_PREFIX_HEADER = STYBuy/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/STYBuy/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -378,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B859JP9X5P;
+				DEVELOPMENT_TEAM = BMBPTRQ2Q4;
 				GCC_PREFIX_HEADER = STYBuy/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/STYBuy/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
